@@ -29,21 +29,21 @@ export default function Home() {
       </div>
       {/* --------------------------------- */}
       <section className="flex justify-center mt-16">
-        <div className="flex gap-8 max-w-[1000px] w-full">
+        <div className="flex items-center gap-8 max-w-[1000px] w-full">
           <div className="w-full">
             <h2 className="font-bold text-[34px] leading-10">
               Pourquoi associer les
               <br />
               neurosciences à la nutrition?
             </h2>
-            <p className="mt-4 text-justify text-[18px]">L'alimentation influence directement le fonctionnement du cerveau : énergie, mémoire, concentration, gestion du stress… Tout est lié ! Les neuronutrisciences explorent cette connexion entre nutrition et neurosciences pour optimiser les performances cognitives et le bien-être mental.</p>
-            <p className="mt-6 text-justify">Comprendre comment les neurosciences agissent sur le cerveau permet d'adopter une alimentation adaptée à ses besoins, soit pour améliorer son humeur, réduire la fatigue mentale ou favoriser une meilleure résilience face au stress.</p>
+            <p className="mt-4 text-justify text-[18px]">{"L'alimentation influence directement le fonctionnement du cerveau : énergie, mémoire, concentration, gestion du stress… Tout est lié ! Les neuronutrisciences explorent cette connexion entre nutrition et neurosciences pour optimiser les performances cognitives et le bien-être mental."}</p>
+            <p className="mt-6 text-justify">{"Comprendre comment les neurosciences agissent sur le cerveau permet d'adopter une alimentation adaptée à ses besoins, soit pour améliorer son humeur, réduire la fatigue mentale ou favoriser une meilleure résilience face au stress."}</p>
             <div className="bg-[#629a34] rounded-[16px] px-4 cursor-pointer max-w-fit text-white font-bold text-[18px] mt-4">
               En savoir plus
             </div>
           </div>
-          <div className="">
-            <img alt="" src="/neuroscience_et_nutrition.png" width={100} height={100} className="h-[400px] min-w-[450px] object-cover rounded-[32px]" />
+          <div>
+            <img alt="" src="/neuroscience_et_nutrition.png" width={100} height={100} className="h-[450px] min-w-[450px] object-cover rounded-[32px]" />
           </div>
         </div>
       </section>
@@ -117,7 +117,7 @@ export default function Home() {
               <div className="h-[200px] flex flex-col items-center justify-between text-white py-8">
                 <div className="flex flex-col justify-center items-center">
                   <p className="text-[18px]">Pour prendre connaissance</p>
-                  <p className="font-bold text-[18px] text-center">Présentation de l'offre<br /> en ligne</p>
+                  <p className="font-bold text-[18px] text-center">{"Présentation de l'offre"}<br /> en ligne</p>
                 </div>
                 <div className="bg-[#02acdb] rounded-[16px] px-4 cursor-pointer max-w-fit text-white font-bold text-[18px]">
                   En savoir plus
