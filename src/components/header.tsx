@@ -9,19 +9,19 @@ export function Header() {
           <p className="font-semibold text-[12px]">Mon Meilleun @vatan</p>
         </li>
         <li>
-          <p className="text-lg font-bold">Neuronutrisciences</p>
+          <p className="text-lg font-semibold">Neuronutrisciences</p>
         </li>
         <li>
-          <p className="text-lg font-bold">Notre Vision</p>
+          <p className="text-lg font-semibold">Notre Vision</p>
         </li>
         <li>
-          <p className="text-lg font-bold">Julie ARDUIN</p>
+          <p className="text-lg font-semibold">Julie ARDUIN</p>
         </li>
         <li>
-          <p className="text-lg font-bold">Notre Accompagnement</p>
+          <p className="text-lg font-semibold">Notre Accompagnement</p>
         </li>
         <li>
-          <p className="text-lg font-bold">Témoignages</p>
+          <p className="text-lg font-semibold">Témoignages</p>
         </li>
       </ul>
     </nav>
