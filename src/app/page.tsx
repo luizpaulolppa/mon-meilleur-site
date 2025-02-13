@@ -35,7 +35,7 @@ export default function Home() {
           <div className="w-full h-[600px] max-w-[450px] flex flex-col justify-center">
             <div>
               <p className="text-[28px] mb-4">Neurosciences & Nutrition</p>
-              <h2 className="text-[42px] text-[#02acdb] font-bold leading-10 mb-4">Adoptez les <br />Neuronutrisciences: <br />un nouvel art de vivre</h2>
+              <h2 className="text-[42px] text-[#4187F5] font-bold leading-10 mb-4">Adoptez les <br />Neuronutrisciences: <br />un nouvel art de vivre</h2>
               <p className="mt-2 text-[18px] leading-6">Changez d’Ere : libérez le plein potentiel de vos dirigeants et managers en adoptant nos Formations de Neuronutrisciences, l’association dynamique des Neurosciences et de la Nutrition.</p>
               <div className="flex justify-between text-white font-bold mt-8 text-[18px]">
                 <div className="bg-[#629a34] rounded-[16px] px-2 cursor-pointer">
@@ -77,7 +77,7 @@ export default function Home() {
           </div>
           <div className="w-[30%]">
           </div>
-          <div className="flex justify-end items-center w-full bg-[#02acdb]">
+          <div className="flex justify-end items-center w-full bg-[#4187F5]">
             <div className="w-[400px] mr-[62px] text-white">
               <h3 className="font-bold text-[38px] leading-10 mb-4">
                 A la rencontre de
@@ -117,7 +117,7 @@ export default function Home() {
                   <p className="text-[18px]">Pour booster votre entreprise</p>
                   <p className="font-bold text-[18px] text-center">Formation <br /> Neuronutrisciences</p>
                 </div>
-                <div className="bg-[#02acdb] rounded-[16px] px-4 cursor-pointer max-w-fit text-white font-bold text-[18px]">
+                <div className="bg-[#4187F5] rounded-[16px] px-4 cursor-pointer max-w-fit text-white font-bold text-[18px]">
                   En savoir plus
                 </div>
               </div>
@@ -129,7 +129,7 @@ export default function Home() {
                   <p className="text-[18px]">Pour améliorer votre santé</p>
                   <p className="font-bold text-[18px] text-center">Séance individuelle</p>
                 </div>
-                <div className="bg-[#02acdb] rounded-[16px] px-4 cursor-pointer max-w-fit text-white font-bold text-[18px]">
+                <div className="bg-[#4187F5] rounded-[16px] px-4 cursor-pointer max-w-fit text-white font-bold text-[18px]">
                   En savoir plus
                 </div>
               </div>
@@ -141,7 +141,7 @@ export default function Home() {
                   <p className="text-[18px]">Pour prendre connaissance</p>
                   <p className="font-bold text-[18px] text-center">{"Présentation de l'offre"}<br /> en ligne</p>
                 </div>
-                <div className="bg-[#02acdb] rounded-[16px] px-4 cursor-pointer max-w-fit text-white font-bold text-[18px]">
+                <div className="bg-[#4187F5] rounded-[16px] px-4 cursor-pointer max-w-fit text-white font-bold text-[18px]">
                   En savoir plus
                 </div>
               </div>

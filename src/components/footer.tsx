@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function Footer() {
   return (
-    <footer className="flex justify-center bg-[#02acdb] py-8">
+    <footer className="flex justify-center bg-[#4187F5] py-8">
       <div className="flex justify-between max-w-[1000px] w-full text-white">
         <div className="w-full">
           <p className="text-[22px] font-bold mb-2">Mon Meilleur @vatar</p>
