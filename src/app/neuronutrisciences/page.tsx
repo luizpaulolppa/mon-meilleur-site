@@ -12,7 +12,7 @@ export default function Neuronutrisciences() {
         <div className="flex items-center max-w-[1000px] w-full bg-[url('/cabeca-de-frutas.png')] bg-contain bg-no-repeat bg-right h-[600px] bg-[#5acdf5]">
           <div className="text-white">
             <p className="text-[28px]">Neurosciences & Nutrition</p>
-            <h1 className="text-[42px] leading-10 font-bold mt-4">Découvre <br />les neuronutrisciences</h1>
+            <h1 className="text-[42px] leading-10 font-bold mt-4 italic">Découvre <br />les neuronutrisciences</h1>
             <p className="mt-6">Unique en France, Mon Meilleur @vatar vous fait<br /> bénéficier des atouts inédits de la complémentarité des<br /> neurosciences et de la nutrition.</p>
           </div>
         </div>
@@ -21,7 +21,7 @@ export default function Neuronutrisciences() {
       {/* --------------------------------- */}
       <section className="flex justify-center">
         <div className="max-w-[1000px] w-full my-14 lg:max-w-[900px] px-2 lg:px-0">
-          <h1 className="text-[32px] font-bold text-center">Neuronutrisciences: les atouts de la complémentarité</h1>
+          <h1 className="text-[32px] font-bold text-center italic">Neuronutrisciences: les atouts de la complémentarité</h1>
           <p className="mt-4 text-justify">Notre cerveau et notre alimentation sont intimement liés. Les neuronutrisciences explorent cette connexion en combinant neurosciences et nutrition pour optimiser vos performances cognitives, votre bien-être mental et votre santé globale.</p>
           <p className="mt-4 text-justify">{"Chaque nutriment joue un rôle clé : les oméga-3 soutiennent la mémoire, les antioxydants protègent les neurones, et les probiotiques influencent même nos émotions via l'axe intestin-cerveau."}</p>
           <p className="mt-4 text-justify">{"L'approche complémentaire agit sur plusieurs leviers en même temps : alimentation ciblée, micronutrition, gestion du stress et rythmes biologiques . Un équilibre essentiel pour un cerveau en pleine forme, aujourd'hui et pour longtemps."}</p>
@@ -46,7 +46,7 @@ export default function Neuronutrisciences() {
       <section className="flex justify-center mt-16 bg-[#4187F5] py-16">
         <div className="flex max-w-[1000px] w-full h-[600px]">
           <div className="w-full text-white">
-            <h3 className="text-[28px] font-bold">
+            <h3 className="text-[28px] font-bold italic">
               Neurosciences : l’apport <br />
               des TCC (Thérapies <br />
               Cognitives Comportementales)
@@ -71,7 +71,7 @@ export default function Neuronutrisciences() {
             <img alt="" src="/d20040372373e3f4f43c153d21690643.avif" width={100} height={150} className="h-[500px] min-w-[450px] object-cover rounded-[32px]" />
           </div>
           <div className="w-full">
-            <h2 className="font-bold text-[34px] leading-10">
+            <h2 className="font-bold text-[34px] leading-10 italic">
               Nutrition allégée :
               <br />
               le plaisir de la sérénité

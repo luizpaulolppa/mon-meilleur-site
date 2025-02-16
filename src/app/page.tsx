@@ -7,26 +7,6 @@ export default function Home() {
     <div>
       <Header />
       {/* --------------------------------- */}
-      {/* <div className="flex justify-center bg-contain bg-no-repeat">
-        <div className="relative flex items-center gap-4 max-w-[1000px] w-full h-[500px] bg-[url(/bg-image.jpeg)] bg-cover bg-no-repeat bg-none">
-          <img alt="" src="/openart-72f96036-7b17-4816-8dff-2afd5f0dee17.png" width={100} height={100} className="h-full w-full object-cover" />
-          <div className="absolute right-[30] h-[500px] w-[450px] flex flex-col justify-center">
-            <div>
-              <p className="text-[28px] mb-4">Neurosciences & Nutrition</p>
-              <h2 className="text-[42px] text-[#02acdb] font-bold leading-10 mb-4">Adoptez les <br />Neuronutrisciences: <br />un nouvel art de vivre</h2>
-              <p className="mt-2 text-[18px] leading-6">Changez d’Ere : libérez le plein potentiel de vos dirigeants et managers en adoptant nos Formations de Neuronutrisciences, l’association dynamique des Neurosciences et de la Nutrition.</p>
-              <div className="flex justify-between text-white font-bold mt-8 text-[18px]">
-                <div className="bg-[#629a34] rounded-[16px] px-2 cursor-pointer">
-                  Je suis un particulier
-                </div>
-                <div className="bg-[#629a34] rounded-[16px] px-2 cursor-pointer">
-                  Je suis un professionnel
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
       <div className="flex justify-center mt-4">
         <div className="flex items-center gap-4 max-w-[1000px] w-full h-[600px]">
           <div className="w-full h-[600px] p-4">
@@ -35,7 +15,7 @@ export default function Home() {
           <div className="w-full h-[600px] max-w-[450px] flex flex-col justify-center">
             <div>
               <p className="text-[32px] mb-4 font-bold">Neurosciences & Nutrition</p>
-              <h2 className="text-[46px] text-[#4187F5] font-bold leading-10 mb-4">Adoptez les <br />Neuronutrisciences: <br />un nouvel art de vivre</h2>
+              <h2 className="text-[46px] text-[#4187F5] font-bold leading-[46px] mb-4 italic">Adoptez les <br />Neuronutrisciences: <br />un nouvel art de vivre</h2>
               <p className="mt-2 text-[18px] leading-6">Changez d’Ere : libérez le plein potentiel de vos dirigeants et managers en adoptant nos Formations de Neuronutrisciences, l’association dynamique des Neurosciences et de la Nutrition.</p>
               <div className="flex justify-between text-white font-bold mt-8 text-[18px]">
                 <div className="bg-[#6EBEA0] rounded-[16px] px-2 cursor-pointer">
@@ -53,7 +33,7 @@ export default function Home() {
       <section className="flex justify-center mt-16">
         <div className="flex items-center gap-8 max-w-[1000px] w-full">
           <div className="w-full">
-            <h2 className="font-bold text-[34px] leading-10">
+            <h2 className="font-bold text-[34px] leading-10 italic">
               Pourquoi associer les
               <br />
               neurosciences à la nutrition?
@@ -79,7 +59,7 @@ export default function Home() {
           </div>
           <div className="flex justify-end items-center w-full bg-[#4187F5]">
             <div className="w-[400px] mr-[62px] text-white">
-              <h3 className="font-bold text-[38px] leading-10 mb-4">
+              <h3 className="font-bold text-[38px] leading-10 mb-4 italic">
                 A la rencontre de
                 <br />
                 Julie Arduin
@@ -108,7 +88,7 @@ export default function Home() {
       {/* --------------------------------- */}
       <section className="flex justify-center mt-16 mb-16">
         <div className="flex flex-col max-w-[1000px] w-full h-[600px]">
-          <h4 className="text-center mb-8 font-bold text-[34px]">Julie vous accompagne...</h4>
+          <h4 className="text-center mb-8 font-bold text-[34px] italic">Julie vous accompagne...</h4>
           <div className="flex justify-between gap-16">
             <div className="h-[500px] w-[300px] bg-[#6EBEA0] rounded-t-full shadow-lg">
               <img alt="" src="/group.jpg" width={100} height={100} className="h-[300px] w-full object-cover rounded-t-full" />
@@ -145,6 +125,31 @@ export default function Home() {
                   En savoir plus
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* --------------------------------- */}
+      {/* --------------------------------- */}
+      <section className="flex justify-center relative">
+        <img alt="" src="/campo.png" width={100} height={150} className="h-[500px] w-[100%] object-cover" />
+        <div className="absolute flex flex-col items-center justify-center max-w-[1000px] w-full h-[500px]">
+          <h3 className="text-[38px] font-bold text-[#122a3a] mt-6">Ils nous font confiance...</h3>
+          <div className="flex gap-4 mt-8">
+          <div className="flex justify-center items-center h-[150px] w-[150px] bg-white rounded-xl shadow-xl">
+              <img src="/partners/1.jpeg" alt="" className="rounded-xl" />
+            </div>
+            <div className="flex justify-center items-center h-[150px] w-[150px] bg-white rounded-xl shadow-xl">
+              <img src="/partners/2.png" alt="" height={120} width={120} className="object-fill" />
+            </div>
+            <div className="flex justify-center items-center h-[150px] w-[150px] bg-white rounded-xl shadow-xl">
+              <img src="/partners/3.png" alt="" height={120} width={120} />
+            </div>
+            <div className="flex justify-center items-center h-[150px] w-[150px] bg-white rounded-xl shadow-xl">
+              <img src="/partners/4.png" alt="" height={120} width={120} />
+            </div>
+            <div className="flex justify-center items-center h-[150px] w-[150px] bg-white rounded-xl shadow-xl">
+              <img src="/partners/5.gif" alt="" height={120} width={120} />
             </div>
           </div>
         </div>
