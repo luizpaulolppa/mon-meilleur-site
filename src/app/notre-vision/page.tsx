@@ -15,7 +15,7 @@ export default function NotreVision() {
             <p className="text-center text-[20px] font-normal leading-6">Adoptez les neuronutrisciences: <br />un nouvel art de vivre</p>
           </div>
           <div className="w-full">
-            <h2 className="text-[32px] font-bold italic">Il était une fois...</h2>
+            <h2 className="text-[32px] font-bold">Il était une fois...</h2>
             <p className="mt-4">{"L'Humain, le Bonheur, la Performance et l'Excellence forment autant de valeurs qui réunissent les membres de l'équipe de Mon Meilleur @vatar!"}</p>
             <p>La santé mentale et physique représentent de véritables enjeux de santé publique.</p>
             <p>{"Nous passons les 3/4 de notre temps en entreprise: comment s'y trouver bien et avoir envie de se rendre sur son lieu de travail?"}</p>
@@ -29,7 +29,7 @@ export default function NotreVision() {
       <section className="flex justify-center mt-16 bg-[#4187F5] py-16">
         <div className="flex items-center justify-between gap-4 max-w-[1000px] w-full">
           <div className="w-full text-white">
-            <h3 className="text-[28px] font-bold italic">
+            <h3 className="text-[28px] font-bold">
               Notre Vision: <br />
               le Bien-être dans l’entreprise<br />
             </h3>
@@ -68,7 +68,7 @@ export default function NotreVision() {
       <section className="flex justify-center relative">
         <img alt="" src="/fond-valeurs.png" width={100} height={150} className="h-[700px] w-[100%] object-cover" />
         <div className="absolute flex flex-col items-center justify-center max-w-[1000px] w-full h-[700px]">
-          <h2 className="text-center font-bold text-[36px] text-[#122a3a] italic">Nos Valeurs: <br />la personnalisation de nos Formations</h2>
+          <h2 className="text-center font-bold text-[36px] text-[#122a3a]">Nos Valeurs: <br />la personnalisation de nos Formations</h2>
           <div className="flex justify-evenly gap-4 mt-8 w-full">
             <div className="w-[300px] bg-orange-400 rounded-[32px] p-8 text-white">
               <p className="font-bold text-[42px] italic">01</p>
@@ -99,7 +99,7 @@ export default function NotreVision() {
           </div>
           <div className="w-full h-[600px] max-w-[450px] flex flex-col justify-center">
             <div>
-              <h2 className="text-[32px] font-bold leading-10 italic">
+              <h2 className="text-[32px] font-bold leading-10">
                 Nos Missions: <br />
                 en priorité, combattre<br />
                 l’absentéisme et le turn-over

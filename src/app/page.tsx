@@ -15,7 +15,7 @@ export default function Home() {
           <div className="w-full h-[600px] max-w-[450px] flex flex-col justify-center">
             <div>
               <p className="text-[32px] mb-4 font-bold">Neurosciences & Nutrition</p>
-              <h2 className="text-[46px] text-[#4187F5] font-bold leading-[46px] mb-4 italic">Adoptez les <br />Neuronutrisciences: <br />un nouvel art de vivre</h2>
+              <h2 className="text-[46px] text-[#4187F5] font-bold leading-[46px] mb-4">Adoptez les <br />Neuronutrisciences: <br />un nouvel art de vivre</h2>
               <p className="mt-2 text-[18px] leading-6">Changez d’Ere : libérez le plein potentiel de vos dirigeants et managers en adoptant nos Formations de Neuronutrisciences, l’association dynamique des Neurosciences et de la Nutrition.</p>
               <div className="flex justify-between text-white font-bold mt-8 text-[18px]">
                 <div className="bg-[#6EBEA0] rounded-[16px] px-2 cursor-pointer">
@@ -33,7 +33,7 @@ export default function Home() {
       <section className="flex justify-center mt-16">
         <div className="flex items-center gap-8 max-w-[1000px] w-full">
           <div className="w-full">
-            <h2 className="font-bold text-[34px] leading-10 italic">
+            <h2 className="font-bold text-[34px] leading-10">
               Pourquoi associer les
               <br />
               neurosciences à la nutrition?
@@ -59,7 +59,7 @@ export default function Home() {
           </div>
           <div className="flex justify-end items-center w-full bg-[#4187F5]">
             <div className="w-[400px] mr-[62px] text-white">
-              <h3 className="font-bold text-[38px] leading-10 mb-4 italic">
+              <h3 className="font-bold text-[38px] leading-10 mb-4">
                 A la rencontre de
                 <br />
                 Julie Arduin
@@ -88,7 +88,7 @@ export default function Home() {
       {/* --------------------------------- */}
       <section className="flex justify-center mt-16 mb-16">
         <div className="flex flex-col max-w-[1000px] w-full h-[600px]">
-          <h4 className="text-center mb-8 font-bold text-[34px] italic">Julie vous accompagne...</h4>
+          <h4 className="text-center mb-8 font-bold text-[34px]">Julie vous accompagne...</h4>
           <div className="flex justify-between gap-16">
             <div className="h-[500px] w-[300px] bg-[#6EBEA0] rounded-t-full shadow-lg">
               <img alt="" src="/group.jpg" width={100} height={100} className="h-[300px] w-full object-cover rounded-t-full" />

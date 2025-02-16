@@ -12,7 +12,7 @@ export default function Neuronutrisciences() {
         <div className="flex items-center max-w-[1000px] w-full bg-[url('/cabeca-de-frutas.png')] bg-contain bg-no-repeat bg-right h-[600px] bg-[#5acdf5]">
           <div className="text-white">
             <p className="text-[28px]">Neurosciences & Nutrition</p>
-            <h1 className="text-[42px] leading-10 font-bold mt-4 italic">Découvre <br />les neuronutrisciences</h1>
+            <h1 className="text-[42px] leading-10 font-bold mt-4">Découvre <br />les neuronutrisciences</h1>
             <p className="mt-6">Unique en France, Mon Meilleur @vatar vous fait<br /> bénéficier des atouts inédits de la complémentarité des<br /> neurosciences et de la nutrition.</p>
           </div>
         </div>
@@ -50,7 +50,7 @@ export default function Neuronutrisciences() {
       <section className="flex justify-center mt-16 bg-[#4187F5] py-16">
         <div className="flex max-w-[1000px] w-full h-[600px]">
           <div className="w-full text-white">
-            <h3 className="text-[28px] font-bold italic">
+            <h3 className="text-[28px] font-bold">
               Neurosciences : l’apport <br />
               des TCC (Thérapies <br />
               Cognitives Comportementales)
@@ -75,7 +75,7 @@ export default function Neuronutrisciences() {
             <img alt="" src="/d20040372373e3f4f43c153d21690643.avif" width={100} height={150} className="h-[500px] min-w-[450px] object-cover rounded-[32px]" />
           </div>
           <div className="w-full">
-            <h2 className="font-bold text-[34px] leading-10 italic">
+            <h2 className="font-bold text-[34px] leading-10">
               Nutrition allégée :
               <br />
               le plaisir de la sérénité

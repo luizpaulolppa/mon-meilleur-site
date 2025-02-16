@@ -12,7 +12,7 @@ export default function NotreAccompagnement() {
             <img alt="" src="/colegas-escritorio.jpg" width={100} height={150} className="h-[500px] min-w-[450px] object-cover rounded-[32px]" />
           </div>
           <div className="w-full">
-            <h2 className="font-bold text-[34px] leading-10 italic">
+            <h2 className="font-bold text-[34px] leading-10">
               Un accompagnement
               <br />
               sur mesure
@@ -31,7 +31,7 @@ export default function NotreAccompagnement() {
       <section className="flex justify-center mt-16 bg-[#4187F5] py-16">
         <div className="flex items-center max-w-[1000px] w-full h-[500px] gap-4">
           <div className="w-full text-white">
-            <h3 className="text-[28px] font-bold italic">
+            <h3 className="text-[28px] font-bold">
               Formation Neuronutrisciences
             </h3>
             <h3 className="text-[24px] font-bold">
@@ -57,7 +57,7 @@ export default function NotreAccompagnement() {
             <img alt="" src="/duas-pessoas-estudando.jpg" width={100} height={150} className="h-[500px] min-w-[450px] object-cover rounded-[32px]" />
           </div>
           <div className="w-full">
-            <h3 className="text-[28px] font-bold italic">
+            <h3 className="text-[28px] font-bold">
               Séance Individuelle
             </h3>
             <h3 className="text-[24px] font-bold">
@@ -77,7 +77,7 @@ export default function NotreAccompagnement() {
       <section className="flex justify-center mt-16 bg-[#e490b6] py-16">
         <div className="flex items-center max-w-[1000px] w-full h-[500px] gap-4">
           <div className="w-full text-white">
-            <h3 className="text-[28px] font-bold italic">
+            <h3 className="text-[28px] font-bold">
               Présentation de l’offre en ligne
             </h3>
             <h3 className="text-[24px] font-bold">
