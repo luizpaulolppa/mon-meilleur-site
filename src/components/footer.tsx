@@ -14,8 +14,9 @@ export function Footer() {
 
         <div className="w-full">
           <p className="text-[22px] font-bold mb-2">Contact</p>
-          <p>06 14 01 36 55</p>
-          <p className="underline font-light">julie.arduin@outlook.com</p>
+          <a href="tel:0614013655" className="font-light">06 14 01 36 55</a>
+          <br />
+          <a className="underline font-light" href="julie.arduin@outlook.com">julie.arduin@outlook.com</a>
           <br />
           <p className="underline font-light">CGV</p>
         </div>
@@ -26,11 +27,11 @@ export function Footer() {
             <input type="text" placeholder="example@gmail.fr" className="w-full text-black outline-none pl-2" maxLength={50} />
             <Image alt="" src="/next.png" width={26} height={26} className="cursor-pointer" />
           </div>
-          <div className="flex gap-2 py-2">
+          {/* <div className="flex gap-2 py-2">
             <input type="checkbox" name="conditions" id="conditions" />
             <label htmlFor="conditions">J’accepte les conditions</label>
-          </div>
-          <div className="flex justify-end gap-4">
+          </div> */}
+          <div className="flex justify-end gap-4 mt-4">
             <Image alt="" src="/facebook.png" width={26} height={26} />
             <Image alt="" src="/instagram.png" width={26} height={26} />
             <Image alt="" src="/linkedin.png" width={26} height={26} />
