@@ -19,7 +19,7 @@ export default function JulieArduin() {
               <h1 className="text-center font-bold text-[32px]">Julie Arduin</h1>
               <p className="text-center font-bold text-[22px]">Présidente</p>
 
-              <p className="text-justify mt-2">{"Je m'appelle Julie, Présidente de Mm@ Mon Meilleur @vatar. J'ai travaillé comme Directrice Opérationnelle et Directrice des Ressources Humaines pendant 18 ans dans un groupe de services français. J'ai démarré en tant que manager d'une centaine de personnes en Nuit dans un centre industriel. J'ai accompagné la transformation tout au long de ma carrière."}</p>
+              <p className="text-justify mt-2">{"Je m'appelle Julie, Présidente de Mm@ Mon Meilleur Avatar. J'ai travaillé comme Directrice Opérationnelle et Directrice des Ressources Humaines pendant 18 ans dans un groupe de services français. J'ai démarré en tant que manager d'une centaine de personnes en Nuit dans un centre industriel. J'ai accompagné la transformation tout au long de ma carrière."}</p>
               <br />
               <p className="text-justify">{"Je suis aujourd’hui Neuropraticienne formée à l’Institute of Neurocognitism en Belgique et Coach en Nutrition Humaine en formation au CERDEN (Centre Européen pour la Recherche, le Développement et l’Enseignement de la Nutrition et de la Nutrithérapie)"}</p>
             </div>

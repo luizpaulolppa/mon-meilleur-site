@@ -6,7 +6,7 @@ export function Footer() {
     <footer className="flex justify-center bg-[#4187F5] py-8">
       <div className="flex justify-between max-w-[1000px] w-full text-white">
         <div className="w-full">
-          <p className="text-[22px] font-bold mb-2">Mon Meilleur @vatar</p>
+          <p className="text-[22px] font-bold mb-2">Mon Meilleur Avatar</p>
           <p className="">31 B rue Santos Dumont</p>
           <p>75015 PARIS</p>
           <br />

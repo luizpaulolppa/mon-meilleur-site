@@ -1,3 +1,4 @@
+import { BadgeLink } from "@/components/badgeLink";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 
@@ -40,8 +41,8 @@ export default function NotreAccompagnement() {
             <p className="mt-4">
               Lorem ipsum dolor sit amet. Vel aliquid sint eos maxime corrupti non obcaecati impedit cum debitis veritatis quo harum asperiores cum molestiae illum eum numquam nihil. Et quasi autem ut officiis odio non alias totam quo ipsum eaque vel porro repellat vel suscipit suscipit. Et quasi autem ut officiis odio non alias totam quo ipsum eaque vel porro repellat vel suscipit suscipit.
             </p>
-            <div className="bg-[#6EBEA0] rounded-[16px] px-4 cursor-pointer max-w-fit text-white font-bold text-[18px] mt-8">
-              Je réserve
+            <div className="mt-8">
+              <BadgeLink href="https://calendly.com/julie-arduin">Je réserve</BadgeLink>
             </div>
           </div>
           <div className="w-full">
@@ -66,8 +67,8 @@ export default function NotreAccompagnement() {
             <p className="mt-6 text-justify text-[18px]">
               Lorem ipsum dolor sit amet. Vel aliquid sint eos maxime corrupti non obcaecati impedit cum debitis veritatis quo harum asperiores cum molestiae illum eum numquam nihil. Et quasi autem ut officiis odio non alias totam quo ipsum eaque vel porro repellat vel suscipit suscipit. Et quasi autem ut officiis odio non alias totam quo ipsum eaque vel porro repellat vel suscipit suscipit.
             </p>
-            <div className="bg-[#6EBEA0] rounded-[16px] px-4 cursor-pointer max-w-fit text-white font-bold text-[18px] mt-8">
-              Je réserve
+            <div className="mt-8">
+              <BadgeLink href="https://calendly.com/julie-arduin">Je réserve</BadgeLink>
             </div>
           </div>
         </div>
@@ -86,8 +87,8 @@ export default function NotreAccompagnement() {
             <p className="mt-4">
               Lorem ipsum dolor sit amet. Vel aliquid sint eos maxime corrupti non obcaecati impedit cum debitis veritatis quo harum asperiores cum molestiae illum eum numquam nihil. Et quasi autem ut officiis odio non alias totam quo ipsum eaque vel porro repellat vel suscipit suscipit. Et quasi autem ut officiis odio non alias totam quo ipsum eaque vel porro repellat vel suscipit suscipit.
             </p>
-            <div className="bg-[#6EBEA0] rounded-[16px] px-4 cursor-pointer max-w-fit text-white font-bold text-[18px] mt-8">
-              Je réserve
+            <div className="mt-8">
+              <BadgeLink href="https://calendly.com/julie-arduin">Je réserve</BadgeLink>
             </div>
           </div>
           <div className="w-full">

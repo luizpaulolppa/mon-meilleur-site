@@ -11,16 +11,16 @@ export default function NotreVision() {
         <div className="flex items-center justify-between gap-4 max-w-[1000px] w-full">
           <div className="flex flex-col justify-center items-center w-full">
             <img alt="" src="/android-chrome-192x192.png" width={56} height={56} className="w-[250px]" />
-            <h3 className="font-bold text-[32px] text-[#2d358a] mt-4">Mon Meilleur @vatar</h3>
+            <h3 className="font-bold text-[32px] text-[#2d358a] mt-4">Mon Meilleur Avatar</h3>
             <p className="text-center text-[20px] font-normal leading-6">Adoptez les neuronutrisciences: <br />un nouvel art de vivre</p>
           </div>
           <div className="w-full">
             <h2 className="text-[32px] font-bold">Il était une fois...</h2>
-            <p className="mt-4">{"L'Humain, le Bonheur, la Performance et l'Excellence forment autant de valeurs qui réunissent les membres de l'équipe de Mon Meilleur @vatar!"}</p>
+            <p className="mt-4">{"L'Humain, le Bonheur, la Performance et l'Excellence forment autant de valeurs qui réunissent les membres de l'équipe de Mon Meilleur Avatar!"}</p>
             <p>La santé mentale et physique représentent de véritables enjeux de santé publique.</p>
             <p>{"Nous passons les 3/4 de notre temps en entreprise: comment s'y trouver bien et avoir envie de se rendre sur son lieu de travail?"}</p>
 
-            <p className="mt-4">J’ai créé Mon Meilleur @vatar pour rendre encore plus solidaire les équipes dans leur entreprise et créer les meilleurs conditions d’un nouvel art de vivre.</p>
+            <p className="mt-4">J’ai créé Mon Meilleur Avatar pour rendre encore plus solidaire les équipes dans leur entreprise et créer les meilleurs conditions d’un nouvel art de vivre.</p>
           </div>
         </div>
       </section>
@@ -105,7 +105,7 @@ export default function NotreVision() {
                 l’absentéisme et le turn-over
               </h2>
 
-              <p className="mt-8">La raison d’être de Mon Meilleur @vatar:</p>
+              <p className="mt-8">La raison d’être de Mon Meilleur Avatar:</p>
               <ul className="list-disc ml-8">
                 <li>combattre l’absentéisme et le turn-over</li>
                 <li>améliorer la qualité de vie et les conditions de travail des collaborateurs dans l’entreprise</li>

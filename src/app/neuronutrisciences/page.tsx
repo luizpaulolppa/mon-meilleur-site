@@ -1,3 +1,4 @@
+import { BadgeLink } from "@/components/badgeLink";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 
@@ -13,7 +14,7 @@ export default function Neuronutrisciences() {
           <div className="text-white">
             <p className="text-[28px]">Neurosciences & Nutrition</p>
             <h1 className="text-[42px] leading-10 font-bold mt-4">Découvre <br />les neuronutrisciences</h1>
-            <p className="mt-6">Unique en France, Mon Meilleur @vatar vous fait<br /> bénéficier des atouts inédits de la complémentarité des<br /> neurosciences et de la nutrition.</p>
+            <p className="mt-6">Unique en France, Mon Meilleur Avatar vous fait<br /> bénéficier des atouts inédits de la complémentarité des<br /> neurosciences et de la nutrition.</p>
           </div>
         </div>
       </section>
@@ -58,8 +59,11 @@ export default function Neuronutrisciences() {
             <p className="mt-4">{"Les neurosciences ont profondément enrichi notre compréhension du cerveau et des mécanismes psychologiques, notamment grâce aux Thérapies Cognitives et Comportementales (TCC). Fondées sur l'idée que nos pensées, émotions et comportements sont liés, les TCC modifient les schémas de pensée négatifs et les comportements inadaptés."}</p>
             <p className="mt-4">{"Validées scientifiquement, elles sont particulièrement efficaces pour traiter l'anxiété, la dépression, les phobies ou encore les troubles obsessionnels. En s'appuyant sur des exercices concrets et une approche structurée, elles obtiennent des résultats durables."}</p>
             <p className="mt-4">{"Grâce aux avancées en neurosciences, les TCC continuent d'évoluer, offrant des méthodes toujours plus adaptées aux besoins individuels ou collectifs."}</p>
-            <div className="bg-[#6EBEA0] rounded-[16px] px-4 cursor-pointer max-w-fit text-white font-bold text-[18px] mt-8">
+            {/* <div className="bg-[#6EBEA0] rounded-[16px] px-4 cursor-pointer max-w-fit text-white font-bold text-[18px] mt-8">
               Je réserve ma séance
+            </div> */}
+            <div className="mt-8">
+              <BadgeLink href="https://calendly.com/julie-arduin">Je réserve ma séance</BadgeLink>
             </div>
           </div>
           <div className="w-full">
@@ -86,8 +90,8 @@ export default function Neuronutrisciences() {
             <p className="mt-6 text-justify text-[18px]">
               {"En adoptant une alimentation plus légère, vous offrez à votre cerveau les nutriments essentiels pour fonctionner de manière optimale. Moins de surcharge, plus d'énergie, une meilleure humeur… et surtout, la sérénité retrouvée."}
             </p>
-            <div className="bg-[#6EBEA0] rounded-[16px] px-4 cursor-pointer max-w-fit text-white font-bold text-[18px] mt-8">
-              Je réserve ma séance
+            <div className="mt-8">
+              <BadgeLink href="https://calendly.com/julie-arduin">Je réserve ma séance</BadgeLink>
             </div>
           </div>
         </div>
