@@ -5,10 +5,10 @@ import Link from "next/link";
 import { tv } from "tailwind-variants";
 
 const link = tv({
-  base: 'text-lg hover:underline',
+  base: 'text-lg text-white font-semibold hover:underline',
   variants: {
     type: {
-      selected: 'font-semibold',
+      selected: 'font-semibold underline',
       noSelected: '',
     }
   }
@@ -20,12 +20,12 @@ export async function Header() {
   console.log("pathname", pathname)
 
   return (
-    <nav className="flex justify-center items-center bg-[#89dbef] shadow-lg">
-      <ul className="flex items-center gap-4 max-w-[1000px] w-full">
+    <nav className="flex justify-center items-center bg-[#4187F5] shadow-xl">
+      <ul className="flex items-center justify-between gap-4 max-w-[1000px] w-full">
         <li className="flex flex-col items-center my-2">
           <Link href="/" className="flex flex-col items-center">
             <img alt="" src="/android-chrome-192x192.png" width={56} height={56} className="min-w-[60px]" />
-            {/* <p className="font-semibold text-[12px]">Mon Meilleun @vatan</p> */}
+            {/* <p className="font-semibold text-[12px] text-white">Mon Meilleun @vatan</p> */}
           </Link>
         </li>
         <li>

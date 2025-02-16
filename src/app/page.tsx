@@ -34,14 +34,14 @@ export default function Home() {
           </div>
           <div className="w-full h-[600px] max-w-[450px] flex flex-col justify-center">
             <div>
-              <p className="text-[28px] mb-4">Neurosciences & Nutrition</p>
-              <h2 className="text-[42px] text-[#4187F5] font-bold leading-10 mb-4">Adoptez les <br />Neuronutrisciences: <br />un nouvel art de vivre</h2>
+              <p className="text-[32px] mb-4 font-bold">Neurosciences & Nutrition</p>
+              <h2 className="text-[46px] text-[#4187F5] font-bold leading-10 mb-4">Adoptez les <br />Neuronutrisciences: <br />un nouvel art de vivre</h2>
               <p className="mt-2 text-[18px] leading-6">Changez d’Ere : libérez le plein potentiel de vos dirigeants et managers en adoptant nos Formations de Neuronutrisciences, l’association dynamique des Neurosciences et de la Nutrition.</p>
               <div className="flex justify-between text-white font-bold mt-8 text-[18px]">
-                <div className="bg-[#629a34] rounded-[16px] px-2 cursor-pointer">
+                <div className="bg-[#6EBEA0] rounded-[16px] px-2 cursor-pointer">
                   Je suis un particulier
                 </div>
-                <div className="bg-[#629a34] rounded-[16px] px-2 cursor-pointer">
+                <div className="bg-[#6EBEA0] rounded-[16px] px-2 cursor-pointer">
                   Je suis un professionnel
                 </div>
               </div>
@@ -60,7 +60,7 @@ export default function Home() {
             </h2>
             <p className="mt-4 text-justify text-[18px]">{"L'alimentation influence directement le fonctionnement du cerveau : énergie, mémoire, concentration, gestion du stress… Tout est lié ! Les neuronutrisciences explorent cette connexion entre nutrition et neurosciences pour optimiser les performances cognitives et le bien-être mental."}</p>
             <p className="mt-6 text-justify">{"Comprendre comment les neurosciences agissent sur le cerveau permet d'adopter une alimentation adaptée à ses besoins, soit pour améliorer son humeur, réduire la fatigue mentale ou favoriser une meilleure résilience face au stress."}</p>
-            <div className="bg-[#629a34] rounded-[16px] px-4 cursor-pointer max-w-fit text-white font-bold text-[18px] mt-4">
+            <div className="bg-[#6EBEA0] rounded-[16px] px-4 cursor-pointer max-w-fit text-white font-bold text-[18px] mt-4">
               En savoir plus
             </div>
           </div>
@@ -70,7 +70,7 @@ export default function Home() {
         </div>
       </section>
       {/* --------------------------------- */}
-      <section className="flex justify-center mt-16">
+      <section className="flex justify-center mt-16 bg-[#4187F5]">
         <div className="flex relative max-w-[1000px] w-full h-[600px]">
           <div className="absolute h-[500px] w-[400px] top-[50px] rounded-[32px]">
             <img alt="Julie ARDUIN" src="/julie.jpg" width={100} height={100} className="w-full h-full object-cover rounded-[32px]" />
@@ -98,7 +98,7 @@ export default function Home() {
                 rire. Le bonheur existe, je vous propose de le
                 rencontrer!
               </p>
-              <div className="bg-[#629a34] rounded-[16px] px-4 cursor-pointer max-w-fit text-white font-bold text-[18px] mt-6">
+              <div className="bg-[#6EBEA0] rounded-[16px] px-4 cursor-pointer max-w-fit text-white font-bold text-[18px] mt-6">
                 En savoir plus
               </div>
             </div>
@@ -110,7 +110,7 @@ export default function Home() {
         <div className="flex flex-col max-w-[1000px] w-full h-[600px]">
           <h4 className="text-center mb-8 font-bold text-[34px]">Julie vous accompagne...</h4>
           <div className="flex justify-between gap-16">
-            <div className="h-[500px] w-[300px] bg-[#629a34] rounded-t-full shadow-lg">
+            <div className="h-[500px] w-[300px] bg-[#6EBEA0] rounded-t-full shadow-lg">
               <img alt="" src="/group.jpg" width={100} height={100} className="h-[300px] w-full object-cover rounded-t-full" />
               <div className="h-[200px] flex flex-col items-center justify-between text-white py-8">
                 <div className="flex flex-col justify-center items-center">
@@ -122,7 +122,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="h-[500px] w-[300px] bg-[#629a34] rounded-t-full shadow-lg">
+            <div className="h-[500px] w-[300px] bg-[#6EBEA0] rounded-t-full shadow-lg">
               <img alt="" src="/dupla-trabalhando.jpg" width={100} height={100} className="h-[300px] w-full object-cover rounded-t-full" />
               <div className="h-[200px] flex flex-col items-center justify-between text-white py-8">
                 <div className="flex flex-col justify-center items-center">
@@ -134,7 +134,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="h-[500px] w-[300px] bg-[#629a34] rounded-t-full shadow-lg">
+            <div className="h-[500px] w-[300px] bg-[#6EBEA0] rounded-t-full shadow-lg">
               <img alt="" src="/menina.jpeg" width={100} height={100} className="h-[300px] w-full object-cover rounded-t-full" />
               <div className="h-[200px] flex flex-col items-center justify-between text-white py-8">
                 <div className="flex flex-col justify-center items-center">
