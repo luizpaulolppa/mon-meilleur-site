@@ -79,7 +79,7 @@ export default function Neuronutrisciences() {
             <p className="mt-6 text-justify text-[18px]">
               {"Et si mieux manger rimait avec bien-être et clarté d'esprit ? La nutrition allégée ne consiste pas seulement à réduire les calories, mais à choisir des aliments qui nourrissent à la fois le corps et l'esprit. Grâce aux avancées en neuronutrisciences, nous comprenons mieux l'impact de l'alimentation sur l'équilibre émotionnel, la concentration et la gestion."}
             </p>
-            <p className="mt-6 text-justify">
+            <p className="mt-6 text-justify text-[18px]">
               {"En adoptant une alimentation plus légère, vous offrez à votre cerveau les nutriments essentiels pour fonctionner de manière optimale. Moins de surcharge, plus d'énergie, une meilleure humeur… et surtout, la sérénité retrouvée."}
             </p>
             <div className="bg-[#6EBEA0] rounded-[16px] px-4 cursor-pointer max-w-fit text-white font-bold text-[18px] mt-8">
