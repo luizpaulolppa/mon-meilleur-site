@@ -70,19 +70,19 @@ export default function NotreVision() {
         <div className="absolute flex flex-col items-center justify-center max-w-[1000px] w-full h-[700px]">
           <h2 className="text-center font-bold text-[36px] text-[#122a3a] italic">Nos Valeurs: <br />la personnalisation de nos Formations</h2>
           <div className="flex justify-evenly gap-4 mt-8 w-full">
-            <div className="w-[300px] bg-[#e490af] rounded-[32px] p-8 text-white">
+            <div className="w-[300px] bg-orange-400 rounded-[32px] p-8 text-white">
               <p className="font-bold text-[42px] italic">01</p>
               <p className="font-bold text-[30px] leading-8 mt-4">Vous partage<br /> notre éthique</p>
               <p className="text-[18px] mt-8 text-justify">Parce que votre bien-être passe par des pratiques fondées sur la science et le respect de votre équilibre, nous vous accompagnons avec intégrité et bienveillance.</p>
             </div>
 
-            <div className="w-[300px] bg-[#e490af] rounded-[32px] p-8 text-white">
+            <div className="w-[300px] bg-orange-400 rounded-[32px] p-8 text-white">
               <p className="font-bold text-[42px] italic">02</p>
               <p className="font-bold text-[30px] leading-8 mt-4">Vous êtes unique</p>
               <p className="text-[18px] mt-8 text-justify">Votre parcours, vos besoins et vos objectifs vous identifient: nous vous accompagnons en concevant des Formations sur mesure pour répondre à votre singularité.</p>
             </div>
 
-            <div className="w-[300px] bg-[#e490af] rounded-[32px] p-8 text-white">
+            <div className="w-[300px] bg-orange-400 rounded-[32px] p-8 text-white">
               <p className="font-bold text-[42px] italic">03</p>
               <p className="font-bold text-[30px] leading-8 mt-4">Votre personnalité<br /> prime</p>
               <p className="text-[18px] mt-8 text-justify">Bien manger, bien penser, bien vivre : ici, nous adaptons les neuronutrisciences à votre mode de vie, et non l inverse, pour révéler le meilleur de vous-même.</p>

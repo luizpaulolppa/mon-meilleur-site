@@ -7,7 +7,7 @@ export default function JulieArduin() {
     <div>
       <Header />
       {/* --------------------------------- */}
-      <section className="flex justify-center py-8">
+      <section className="flex justify-center py-8 mb-40">
         <div className="flex items-center gap-4 max-w-[1000px] w-full h-[600px]">
           <div className="w-full h-[600px] p-4">
             <img alt="" src="/julie-encarando-.jpg" width={100} height={100} className="h-full w-full object-cover rounded-[32px]" />

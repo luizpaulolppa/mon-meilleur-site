@@ -7,7 +7,7 @@ export default function Temoignages() {
     <div>
       <Header />
       {/* --------------------------------- */}
-      <section className="flex justify-center mt-16 mb-16">
+      <section className="flex justify-center mt-16 mb-40">
         <div className="flex flex-col max-w-[1000px] w-full">
           <h4 className="text-center mb-8 font-bold text-[34px]">Ils témoignent...</h4>
           <ul className="flex justify-between">
