@@ -21,14 +21,14 @@ export default function Neuronutrisciences() {
       {/* --------------------------------- */}
       <section className="flex justify-center">
         <div className="max-w-[1000px] w-full my-14 lg:max-w-[900px] px-2 lg:px-0">
-          <h1 className="text-[32px] font-bold text-center italic">Neuronutrisciences: les atouts de la complémentarité</h1>
+          <h1 className="text-[32px] font-bold text-center">Neuronutrisciences: les atouts de la complémentarité</h1>
           <p className="mt-4 text-justify">Notre cerveau et notre alimentation sont intimement liés. Les neuronutrisciences explorent cette connexion en combinant neurosciences et nutrition pour optimiser vos performances cognitives, votre bien-être mental et votre santé globale.</p>
           <p className="mt-4 text-justify">{"Chaque nutriment joue un rôle clé : les oméga-3 soutiennent la mémoire, les antioxydants protègent les neurones, et les probiotiques influencent même nos émotions via l'axe intestin-cerveau."}</p>
           <p className="mt-4 text-justify">{"L'approche complémentaire agit sur plusieurs leviers en même temps : alimentation ciblée, micronutrition, gestion du stress et rythmes biologiques . Un équilibre essentiel pour un cerveau en pleine forme, aujourd'hui et pour longtemps."}</p>
           <div className="flex justify-around mt-8">
             <div className="flex flex-col items-center justify-center gap-1 max-w-max">
               <img src="/brain-in-head-left.png" alt="" height={80} width={80} />
-              <p className="text-center font-bold leading-4 text-[#629a34]">Prévention des<br /> troubles mentau</p>
+              <p className="text-center font-bold leading-4 text-[#629a34]">Prévention des<br /> troubles mentaux</p>
             </div>
             <div className="flex flex-col items-center justify-center gap-1 max-w-max">
               <img src="/ioga.png" alt="" height={80} width={80} />
@@ -37,6 +37,10 @@ export default function Neuronutrisciences() {
             <div className="flex flex-col items-center justify-center gap-1 max-w-max">
               <img src="/brain-on-head-right.png" alt="" height={80} width={80} />
               <p className="text-center font-bold leading-4 text-[#629a34]">Optimisation de la<br /> longétivité</p>
+            </div>
+            <div className="flex flex-col items-center justify-center gap-1 max-w-max">
+              <img src="/icons8-mulher-afligida-96.png" alt="" height={80} width={80} />
+              <p className="text-center font-bold leading-4 text-[#629a34]">Réduction du<br /> stress</p>
             </div>
           </div>
         </div>

@@ -39,8 +39,8 @@ export default function NotreVision() {
                 <span className="font-bold text-[22px]">1-</span> Créer un programme personnalisé fondé sur les
                 Neurosciences appliquées et la Nutrition Humaine:
                 <ul className="list-disc ml-8">
-                  <li>en collectid</li>
-                  <li>en individuelz</li>
+                  <li>en collectif</li>
+                  <li>en individuel</li>
                   <li>en application</li>
                 </ul>
               </li>
@@ -108,12 +108,12 @@ export default function NotreVision() {
               <p className="mt-8">La raison d’être de Mon Meilleur @vatar:</p>
               <ul className="list-disc ml-8">
                 <li>combattre l’absentéisme et le turn-over</li>
-                <li>améliorer la qualité de vie et les conditions de travail des collaborateurs dans l’entreprisÓ</li>
+                <li>améliorer la qualité de vie et les conditions de travail des collaborateurs dans l’entreprise</li>
                 <li>lutter contre l’obésité</li>
                 <li>promouvoir l’accès à une éducation de qualité</li>
                 <li>développer l’engagement</li>
                 <li>favoriser la santé et le bien-être</li>
-                <li>promouvoir l’innovation flugale</li>
+                <li>promouvoir l’innovation frugale</li>
               </ul>
             </div>
           </div>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export function Footer() {
   return (
@@ -32,9 +33,11 @@ export function Footer() {
             <label htmlFor="conditions">J’accepte les conditions</label>
           </div> */}
           <div className="flex justify-end gap-4 mt-4">
-            <Image alt="" src="/facebook.png" width={26} height={26} />
-            <Image alt="" src="/instagram.png" width={26} height={26} />
-            <Image alt="" src="/linkedin.png" width={26} height={26} />
+            <Link href="https://www.linkedin.com/company/mon-meilleur-avatar/?viewAsMember=true" title="Linkedin" target="_blank">
+              <Image alt="" src="/linkedin.png" width={26} height={26} />
+            </Link>
+            {/* <Image alt="" src="/facebook.png" width={26} height={26} />
+            <Image alt="" src="/instagram.png" width={26} height={26} /> */}
           </div>
         </div>
       </div>
