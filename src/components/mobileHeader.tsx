@@ -23,35 +23,35 @@ export function MobileHeader() {
             </li>
             <li>
               <a href="/neuronutrisciences">
-                <p className="">
+                <p className="text-[18px] font-bold">
                   Neuronutrisciences
                 </p>
               </a>
             </li>
             <li>
               <a href="/notre-vision">
-                <p className="">
+                <p className="text-[18px] font-bold">
                   Notre Vision
                 </p>
               </a>
             </li>
             <li>
               <a href="/julie-arduin">
-                <p className="">
+                <p className="text-[18px] font-bold">
                   Julie ARDUIN
                 </p>
               </a>
             </li>
             <li>
               <a href="/notre-accompagnement">
-                <p className="">
+                <p className="text-[18px] font-bold">
                   Notre Accompagnement
                 </p>
               </a>
             </li>
             <li>
               <a href="/temoignages">
-                <p className="">
+                <p className="text-[18px] font-bold">
                   Témoignages
                 </p>
               </a>
