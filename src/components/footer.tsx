@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export function Footer() {
   return (
-    <footer className="flex justify-center bg-[#4187F5] py-8">
-      <div className="flex justify-between max-w-[1000px] w-full text-white">
+    <footer className="flex justify-center bg-[#4187F5] py-8 px-4">
+      <div className="flex flex-col justify-between max-w-[1000px] w-full text-white md:flex-row">
         <div className="w-full">
           <p className="text-[22px] font-bold mb-2">Mon Meilleur Avatar</p>
           <p className="">31 B rue Santos Dumont</p>
