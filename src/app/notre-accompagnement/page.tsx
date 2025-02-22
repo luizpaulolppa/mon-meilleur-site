@@ -104,7 +104,7 @@ export default function NotreAccompagnement() {
             </div>
           </div>
           <div className="w-full">
-            <img src="/palestrante.jpg" alt="Neuroscience" height={80} width={80} className="h-[500px] w-[300px] w-full object-cover rounded-[32px]" />
+            <img src="/mao_segurando_celular.png" alt="Neuroscience" height={80} width={80} className="h-[500px] w-[300px] w-full object-cover rounded-[32px]" />
           </div>
         </div>
       </section>
