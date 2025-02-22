@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: Poppins, Helvetica, sans-serif;
+
 }
 
 @theme {
@@ -17,10 +17,6 @@ body {
   /* --breakpoint-xs: 1000px; */
   --breakpoint-xs: 1048px;
 
-  /*
-  #FF6E3C
-  #4187F5
-  #F5BE5A
-  #6EBEA0
-  */
+  --font-heading: var(--spectral-font);
+  --font-sans: var(--poppins-font);
 }

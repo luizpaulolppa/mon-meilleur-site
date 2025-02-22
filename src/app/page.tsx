@@ -15,10 +15,10 @@ export default function Home() {
           </div>
           <div className="w-full h-[600px] max-w-[450px] flex flex-col justify-center pr-4">
             <div>
-              <p className="text-[32px] mb-4 font-bold">Neurosciences & Nutrition</p>
-              <h2 className="text-[40px] text-[#4187F5] font-bold leading-[46px] mb-4 break-words">Adoptez les <br />Neuronutrisciences: <br />un nouvel art de vivre</h2>
+              <p className="text-[32px] mb-4">Neurosciences & Nutrition</p>
+              <h2 className="text-[40px] text-[#4187F5] leading-[46px] mb-4 break-words font-corben">Adoptez les <br />Neuronutrisciences: <br />un nouvel art de vivre</h2>
               <p className="mt-2 text-[18px] leading-6">Changez d’Ere : libérez le plein potentiel de vos dirigeants et managers en adoptant nos Formations de Neuronutrisciences, l’association dynamique des Neurosciences et de la Nutrition.</p>
-              <div className="flex flex-col gap-4 text-white font-bold mt-8 text-[18px]">
+              <div className="flex text-white font-bold mt-8 text-[18px]">
                 {/* <div className="bg-[#6EBEA0] rounded-[16px] px-2 cursor-pointer">
                   Je suis un particulier
                 </div>
@@ -36,16 +36,13 @@ export default function Home() {
       <section className="flex justify-center mt-16">
         <div className="flex flex-col items-center gap-8 max-w-[1000px] w-full px-4 lg:px-0 md:flex-row">
           <div className="w-full">
-            <h2 className="font-bold text-[34px] leading-10">
+            <h2 className="text-[34px] leading-10 font-corben">
               Pourquoi associer les
               <br />
               neurosciences à la nutrition?
             </h2>
-            <p className="mt-4 text-justify text-[18px]">{"L'alimentation influence directement le fonctionnement du cerveau : énergie, mémoire, concentration, gestion du stress… Tout est lié ! Les neuronutrisciences explorent cette connexion entre nutrition et neurosciences pour optimiser les performances cognitives et le bien-être mental."}</p>
+            <p className="mt-6 text-justify text-[18px]">{"L'alimentation influence directement le fonctionnement du cerveau : énergie, mémoire, concentration, gestion du stress… Tout est lié ! Les neuronutrisciences explorent cette connexion entre nutrition et neurosciences pour optimiser les performances cognitives et le bien-être mental."}</p>
             <p className="mt-6 text-justify">{"Comprendre comment les neurosciences agissent sur le cerveau permet d'adopter une alimentation adaptée à ses besoins, soit pour améliorer son humeur, réduire la fatigue mentale ou favoriser une meilleure résilience face au stress."}</p>
-            {/* <div className="bg-[#6EBEA0] rounded-[16px] px-4 cursor-pointer max-w-fit text-white font-bold text-[18px] mt-4">
-              En savoir plus
-            </div> */}
             <div className="mt-8">
               <BadgeLink href="https://calendly.com/julie-arduin">En savoir plus</BadgeLink>
             </div>
@@ -68,7 +65,7 @@ export default function Home() {
             />
           </div>
           <div className="w-full text-white">
-            <h3 className="font-bold text-[38px] leading-10 mb-4">
+            <h3 className="text-[38px] leading-10 mb-4 font-corben">
               A la rencontre de
               <br />
               Julie Arduin
@@ -96,7 +93,7 @@ export default function Home() {
       {/* --------------------------------- */}
       <section className="flex justify-center mt-16 mb-16">
         <div className="flex flex-col max-w-[1000px] w-full md:h-[600px]">
-          <h4 className="text-center mb-8 font-bold text-[34px]">Julie vous accompagne...</h4>
+          <h4 className="text-center mb-8 text-[34px] font-corben">Julie vous accompagne...</h4>
           <div className="flex flex-col items-center justify-between gap-4 px-4 lg:px-0 md:flex-row">
             <div className="h-[500px] w-[300px] bg-[#6EBEA0] rounded-t-full shadow-lg">
               <img alt="" src="/group.jpg" width={100} height={100} className="h-[300px] w-full object-cover rounded-t-full" />
@@ -145,7 +142,7 @@ export default function Home() {
       <section className="flex justify-center relative h-[700px] sm:h-[500px]">
         <img alt="" src="/campo.png" width={100} height={150} className="w-[100%] object-cover" />
         <div className="absolute flex flex-col items-center justify-center max-w-[1000px] w-full h-full">
-          <h3 className="text-[38px] font-bold text-[#122a3a] mt-6 text-center">Ils nous font confiance...</h3>
+          <h3 className="text-[38px] text-[#122a3a] mt-6 text-center font-corben">Ils nous font confiance...</h3>
           <div className="flex flex-wrap justify-center gap-4 mt-8">
             <div className="flex justify-center items-center h-[150px] w-[150px] bg-white rounded-xl shadow-xl">
               <img src="/partners/1.jpeg" alt="" className="rounded-xl" />

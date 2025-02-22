@@ -1,15 +1,19 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import { Poppins, Corben } from "next/font/google";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 
 import "./globals.css";
 
 const poppins = Poppins({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--poppins-font",
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  style: ["normal"],
+  subsets: ['latin'],
+  variable: "--poppins-font",
+});
+
+const corben = Corben({
+  weight: ["400", "700"],
+  subsets: ["latin"],
+  variable: "--corben-font",
 });
 
 export const metadata: Metadata = {
@@ -23,10 +27,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${poppins.variable} antialiased`}
-      >
+    <html lang="en" className={`${poppins.variable} ${corben.variable}`}>
+      <body className="antialiased">
         {children}
         <SpeedInsights />
       </body>

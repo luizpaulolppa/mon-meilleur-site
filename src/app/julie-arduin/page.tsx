@@ -16,8 +16,8 @@ export default function JulieArduin() {
             <div>
               <p className="">{"\"Le Bonheur n’est pas forcément une gare où l’on arrive, c’est avant tout une certaine façon de voyager\""}</p>
               <p className="text-end mt-2 mb-4">Oscar Wide</p>
-              <h1 className="text-center font-bold text-[32px]">Julie Arduin</h1>
-              <p className="text-center font-bold text-[22px]">Présidente</p>
+              <h1 className="text-center font-corben text-[42px]">Julie Arduin</h1>
+              <p className="text-center font-corben text-[28px]">Présidente</p>
 
               <p className="text-justify mt-2">{"Je m'appelle Julie, Présidente de Mm@ Mon Meilleur Avatar. J'ai travaillé comme Directrice Opérationnelle et Directrice des Ressources Humaines pendant 18 ans dans un groupe de services français. J'ai démarré en tant que manager d'une centaine de personnes en Nuit dans un centre industriel. J'ai accompagné la transformation tout au long de ma carrière."}</p>
               <br />

@@ -12,6 +12,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        corben: ["var(--corben-font)", "ui-serif", "serif"],
+        sans: ["var(--poppins-font)", "var(--corben-font)", "ui-sans-serif", "system-ui"],
+      }
     },
   },
   plugins: [],

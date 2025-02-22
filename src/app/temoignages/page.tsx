@@ -12,7 +12,7 @@ export default function Temoignages() {
       {/* --------------------------------- */}
       <section className="flex justify-center mt-16 mb-40">
         <div className="flex flex-col max-w-[1000px] w-full">
-          <h4 className="text-center mb-8 font-bold text-[34px]">Ils témoignent...</h4>
+          <h4 className="text-center mb-8 text-[34px] font-corben">Ils témoignent...</h4>
           {/* <ul className="flex justify-between">
             {[1, 2, 3].map((index) => (
               <li key={index} className="flex flex-col items-center w-[300px] bg-[#6EBEA0] rounded-[32px] text-white py-8 px-4">

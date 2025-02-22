@@ -6,7 +6,7 @@ export function Footer() {
     <footer className="flex justify-center bg-[#4187F5] py-8 px-4">
       <div className="flex flex-col justify-between max-w-[1000px] w-full text-white md:flex-row">
         <div className="w-full">
-          <p className="text-[22px] font-bold mb-2">Mon Meilleur Avatar</p>
+          <p className="text-[22px] font-bold mb-2">Mon Meilleur @vatar</p>
           <p className="">31 B rue Santos Dumont</p>
           <p>75015 PARIS</p>
           <br />
@@ -14,7 +14,7 @@ export function Footer() {
         </div>
 
         <div className="w-full">
-          <p className="text-[22px] font-bold mb-2">Contact</p>
+          <p className="text-[22px] font-corben mb-2">Contact</p>
           <a href="tel:0614013655" className="font-light">06 14 01 36 55</a>
           <br />
           <a className="underline font-light" href="julie.arduin@outlook.com">julie.arduin@outlook.com</a>
@@ -23,7 +23,7 @@ export function Footer() {
         </div>
 
         <div className="w-full">
-          <p className="text-[22px] font-bold mb-2">Abonnez vous à la newsletter</p>
+          <p className="text-[22px] font-corben mb-2">Abonnez vous à la newsletter</p>
           <div className="flex w-full bg-white p-2 rounded-[38px]">
             <input type="text" placeholder="example@gmail.fr" className="w-full text-black outline-none pl-2" maxLength={50} />
             <Image alt="" src="/next.png" width={26} height={26} className="cursor-pointer" />
