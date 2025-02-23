@@ -22,6 +22,13 @@ export function MobileHeader() {
               </a>
             </li>
             <li>
+              <a href="/">
+                <p className="text-[18px] font-bold">
+                  Home
+                </p>
+              </a>
+            </li>
+            <li>
               <a href="/neuronutrisciences">
                 <p className="text-[18px] font-bold">
                   Neuronutrisciences

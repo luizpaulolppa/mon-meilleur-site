@@ -8,7 +8,7 @@ export default function Home() {
     <div>
       <Header />
       {/* --------------------------------- */}
-      <div className="flex justify-center mt-12 md:mt-4">
+      {/* <div className="flex justify-center mt-12 md:mt-4">
         <div className="flex justify-center items-center gap-4 max-w-[1000px] w-full h-[600px] px-4 lg:justify-normal lg:px-0 lg:max-h-max">
           <div className="w-full h-[600px] p-4 hidden lg:flex">
             <img alt="" src="/julie-home.jpg" width={100} height={100} className="h-full w-full object-cover rounded-[32px]" />
@@ -19,12 +19,22 @@ export default function Home() {
               <h2 className="text-[40px] text-[#4187F5] leading-[46px] mb-4 break-words font-corben">Adoptez les <br />Neuronutrisciences: <br />un nouvel art de vivre</h2>
               <p className="mt-2 text-[18px] leading-6">Changez d’Ere : libérez le plein potentiel de vos dirigeants et managers en adoptant nos Formations de Neuronutrisciences, l’association dynamique des Neurosciences et de la Nutrition.</p>
               <div className="flex text-white font-bold mt-8 text-[18px]">
-                {/* <div className="bg-[#6EBEA0] rounded-[16px] px-2 cursor-pointer">
-                  Je suis un particulier
-                </div>
-                <div className="bg-[#6EBEA0] rounded-[16px] px-2 cursor-pointer">
-                  Je suis un professionnel
-                </div> */}
+                <BadgeLink href="https://calendly.com/julie-arduin">Je suis un particulier</BadgeLink>
+                <BadgeLink href="https://calendly.com/julie-arduin">Je suis un professionnel</BadgeLink>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> */}
+      <div className="flex justify-center bg-[url('/265.jpg')] bg-cover bg-center bg-no-repeat">
+        <div className="flex justify-center items-center gap-4 max-w-[1200px] w-full h-[700px] lg:justify-normal lg:px-0 lg:max-h-max tablet:h-[600px] p-4 tablet:p-0">
+          <img alt="" src="/julie-home.png" width={100} height={100} className="object-contain laptop:h-full w-[500px] laptop:w-full h-[500px] hidden laptop:flex" />
+          <div className="w-full h-[600px] max-w-[500px] flex flex-col justify-center pr-4">
+            <div>
+              <p className="text-[32px] mb-4">Neurosciences & Nutrition</p>
+              <h2 className="text-[40px] text-[#4187F5] leading-[46px] mb-4 break-words font-corben">Adoptez les <br />Neuronutrisciences: <br />un nouvel art de vivre</h2>
+              <p className="mt-2 text-[18px] leading-6">Changez d’Ere : libérez le plein potentiel de vos dirigeants et managers en adoptant nos Formations de Neuronutrisciences, l’association dynamique des Neurosciences et de la Nutrition.</p>
+              <div className="flex flex-col gap-2 text-white font-bold mt-8 text-[18px] desktop:flex-row desktop:gap-1">
                 <BadgeLink href="https://calendly.com/julie-arduin">Je suis un particulier</BadgeLink>
                 <BadgeLink href="https://calendly.com/julie-arduin">Je suis un professionnel</BadgeLink>
               </div>

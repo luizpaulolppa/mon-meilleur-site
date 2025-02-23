@@ -15,6 +15,19 @@ export default {
       fontFamily: {
         corben: ["var(--corben-font)", "ui-serif", "serif"],
         sans: ["var(--poppins-font)", "var(--corben-font)", "ui-sans-serif", "system-ui"],
+      },
+      backgroundImage: {
+        'fundo-verde': "url('/fundo-verde.jpg')"
+      },
+      screens: {
+        'tablet': '640px',
+        // => @media (min-width: 640px) { ... }
+
+        'laptop': '1024px',
+        // => @media (min-width: 1024px) { ... }
+
+        'desktop': '1280px',
+        // => @media (min-width: 1280px) { ... }
       }
     },
   },
