@@ -7,8 +7,8 @@ export default function NotreVision() {
     <div>
       <Header />
       {/* --------------------------------- */}
-      <section className="flex justify-center mt-16 py-16">
-        <div className="flex items-center justify-between gap-4 max-w-[1000px] w-full">
+      <section className="flex justify-center mt-16 py-16 px-4">
+        <div className="flex items-center justify-between flex-col tabletx1:flex-row gap-4 max-w-[1000px] w-full">
           <div className="flex flex-col justify-center items-center w-full">
             <img alt="" src="/android-chrome-192x192.png" width={56} height={56} className="w-[250px]" />
             <h3 className="font-corben italic text-[32px] mt-4">Mon Meilleur @vatar</h3>
@@ -26,8 +26,8 @@ export default function NotreVision() {
       </section>
       {/* --------------------------------- */}
       {/* --------------------------------- */}
-      <section className="flex justify-center mt-16 bg-[#4187F5] py-16">
-        <div className="flex items-center justify-between gap-4 max-w-[1000px] w-full">
+      <section className="flex justify-center mt-16 bg-[#4187F5] py-16 px-4">
+        <div className="flex items-center flex-col tabletx1:flex-row justify-between gap-4 max-w-[1000px] w-full">
           <div className="w-full text-white">
             <h3 className="text-[42px] font-corben leading-10">
               Notre Vision: le Mieux<br />
@@ -58,18 +58,18 @@ export default function NotreVision() {
               </li>
             </ul>
           </div>
-          <div className="flex justify-end w-full">
+          <div className="flex justify-center tabletx1:justify-end w-full">
             <img src="/escritorio-feliz.webp" alt="Neuroscience" height={80} width={80} className="h-[500px] max-w-[400px] w-full object-cover rounded-[32px]" />
           </div>
         </div>
       </section>
       {/* --------------------------------- */}
       {/* --------------------------------- */}
-      <section className="flex justify-center relative">
-        <img alt="" src="/fond-valeurs.png" width={100} height={150} className="h-[700px] w-[100%] object-cover" />
-        <div className="absolute flex flex-col items-center justify-center max-w-[1000px] w-full h-[700px]">
+      <section className="flex justify-center relative bg-[url('/fond-valeurs.png')] bg-cover bg-no-repeat w-[100%] py-14">
+        {/* <img alt="" src="/fond-valeurs.png" width={100} height={150} className="tabletx1:h-[700px] w-[100%] object-cover" /> */}
+        <div className="flex flex-col items-center justify-center max-w-[1000px] w-full">
           <h2 className="text-center text-[36px] text-[#122a3a] font-corben">Nos Valeurs: <br />la personnalisation de nos Formations</h2>
-          <div className="flex justify-evenly gap-4 mt-8 w-full">
+          <div className="flex justify-evenly flex-wrap gap-4 mt-8 w-full">
             <div className="w-[300px] bg-[#ff6e3b] rounded-[32px] p-8 text-white">
               <p className="font-bold text-[42px] italic">01</p>
               <p className="font-bold text-[30px] leading-8 mt-4">Vous partage<br /> notre éthique</p>
@@ -89,15 +89,15 @@ export default function NotreVision() {
             </div>
           </div>
         </div>
-      </section >
+      </section>
       {/* --------------------------------- */}
       {/* --------------------------------- */}
       <section className="flex justify-center py-8">
-        <div className="flex items-center justify-center gap-4 max-w-[1000px] w-full h-[600px]">
-          <div className="w-[400px] h-[600px] p-4">
+        <div className="flex items-center justify-center flex-col tabletx1:flex-row gap-4 max-w-[1000px] w-full px-4">
+          <div className="w-[300px] h-[400px] tabletx1:w-[400px] tabletx1:h-[600px] p-4">
             <img alt="" src="/pessoas-como-base-do-sucesso.jpeg" width={100} height={100} className="h-full w-full object-cover rounded-[32px]" />
           </div>
-          <div className="w-full h-[600px] max-w-[450px] flex flex-col justify-center">
+          <div className="w-full max-w-[450px] flex flex-col justify-center">
             <div>
               <h2 className="text-[32px] font-corben leading-10">
                 Nos Missions: <br />

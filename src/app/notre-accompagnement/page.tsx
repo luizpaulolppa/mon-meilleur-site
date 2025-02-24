@@ -8,9 +8,9 @@ export default function NotreAccompagnement() {
       <Header />
       {/* --------------------------------- */}
       <section className="flex justify-center my-14">
-        <div className="flex items-center gap-8 max-w-[1000px] w-full">
+        <div className="flex items-center flex-col tabletx1:flex-row gap-8 max-w-[1000px] w-full px-4">
           <div>
-            <img alt="" src="/colegas-escritorio.jpg" width={100} height={150} className="h-[500px] min-w-[450px] object-cover rounded-[32px]" />
+            <img alt="" src="/colegas-escritorio.jpg" width={100} height={150} className="h-[400px] w-[350px] tabletx1:h-[500px] tabletx1:w-[450px] object-cover rounded-[32px]" />
           </div>
           <div className="w-full">
             <h2 className="font-corben text-[42px] leading-10">
@@ -30,9 +30,9 @@ export default function NotreAccompagnement() {
       {/* --------------------------------- */}
       {/* --------------------------------- */}
       <section className="flex justify-center mt-16 bg-[#0851c1] py-16">
-        <div className="flex items-center max-w-[1000px] w-full h-[500px] gap-4">
-          <div className="w-full text-white">
-            <h3 className="text-[42px] font-corben leading-10">
+        <div className="flex items-center flex-col tabletx1:flex-row max-w-[1000px] w-full gap-4 px-4">
+          <div className="w-full text-white word-break">
+            <h3 className="tabletx1:text-[42px] text-[38px] font-corben leading-10">
               Formation<br /> Neuronutrisciences
             </h3>
             <h3 className="text-[24px] font-corben mt-4">
@@ -53,7 +53,7 @@ export default function NotreAccompagnement() {
               <BadgeLink href="https://calendly.com/julie-arduin">Je réserve</BadgeLink>
             </div>
           </div>
-          <div className="w-full">
+          <div className="w-full mt-8 tabletx1:mt-0">
             <img src="/palestrante.jpg" alt="Neuroscience" height={80} width={80} className="h-[400px] w-[200px] w-full object-cover rounded-[32px]" />
           </div>
         </div>
@@ -61,9 +61,9 @@ export default function NotreAccompagnement() {
       {/* --------------------------------- */}
       {/* --------------------------------- */}
       <section className="flex justify-center my-14">
-        <div className="flex items-center gap-8 max-w-[1000px] w-full">
+        <div className="flex items-center flex-col tabletx1:flex-row gap-8 max-w-[1000px] w-full px-4">
           <div>
-            <img alt="" src="/duas-pessoas-estudando.jpg" width={100} height={150} className="h-[500px] min-w-[450px] object-cover rounded-[32px]" />
+            <img alt="" src="/duas-pessoas-estudando.jpg" width={100} height={150} className="h-[400px] w-[350px] tabletx1:h-[500px] tabletx1:w-[450px] object-cover rounded-[32px]" />
           </div>
           <div className="w-full">
             <h3 className="text-[42px] font-corben leading-10">
@@ -84,7 +84,7 @@ export default function NotreAccompagnement() {
       {/* --------------------------------- */}
       {/* --------------------------------- */}
       <section className="flex justify-center mt-16 bg-[#f4bd59] py-16">
-        <div className="flex items-center max-w-[1000px] w-full h-[500px] gap-4">
+        <div className="flex items-center flex-col tabletx1:flex-row max-w-[1000px] w-full gap-4 px-4">
           <div className="w-full text-white">
             <h3 className="text-[42px] font-corben leading-10">
               Présentation de <br />l’application
@@ -103,7 +103,7 @@ export default function NotreAccompagnement() {
               <BadgeLink href="https://calendly.com/julie-arduin">Je réserve</BadgeLink>
             </div>
           </div>
-          <div className="w-full">
+          <div className="w-full mt-4 tabletx1:mt-0">
             <img src="/mao_segurando_celular.png" alt="Neuroscience" height={80} width={80} className="h-[500px] w-[300px] w-full object-cover rounded-[32px]" />
           </div>
         </div>
@@ -111,7 +111,7 @@ export default function NotreAccompagnement() {
       {/* --------------------------------- */}
       {/* --------------------------------- */}
       <section className="flex justify-center py-16">
-        <div className="flex items-center max-w-[1000px] w-full h-[500px] gap-4">
+        <div className="flex items-center flex-col tabletx1:flex-row max-w-[1000px] w-full gap-4 px-4">
           <div className="w-full">
             <h3 className="text-[42px] font-corben leading-10">
               Présentation de l’offre <br /> en ligne
@@ -128,7 +128,7 @@ export default function NotreAccompagnement() {
               <BadgeLink href="https://calendly.com/julie-arduin">Je réserve</BadgeLink>
             </div>
           </div>
-          <div className="w-full">
+          <div className="w-full mt-4 tabletx1:mt-0">
             <img src="/menina-estudando.jpg" alt="Neuroscience" height={80} width={80} className="h-[500px] w-[300px] w-full object-cover rounded-[32px]" />
           </div>
         </div>

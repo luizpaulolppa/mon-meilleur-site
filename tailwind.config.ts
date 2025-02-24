@@ -17,11 +17,17 @@ export default {
         sans: ["var(--poppins-font)", "var(--corben-font)", "ui-sans-serif", "system-ui"],
       },
       backgroundImage: {
-        'fundo-verde': "url('/fundo-verde.jpg')"
+        'fundo-verde': "url('/fundo-verde.jpg')",
       },
       screens: {
         'tablet': '640px',
         // => @media (min-width: 640px) { ... }
+
+        'tabletx1': '878px',
+        // => @media (min-width: 878px) { ... }
+
+        'tabletx2': '900px',
+        // => @media (min-width: 900px) { ... }
 
         'laptop': '1024px',
         // => @media (min-width: 1024px) { ... }

@@ -9,24 +9,27 @@ export default function Neuronutrisciences() {
       <Header />
       {/* --------------------------------- */}
       {/* --------------------------------- */}
-      <section className="flex justify-center bg-[#5acdf5]">
-        <div className="flex items-center max-w-[1000px] w-full bg-[url('/cabeca-de-frutas.png')] bg-contain bg-no-repeat bg-right h-[600px] bg-[#5acdf5]">
-          <div className="text-white">
+      <section className="flex justify-center bg-[#5acdf5] px-4">
+        <div className="flex items-center justify-between max-w-[1000px] w-full pb-12 tabletx1:pb-0 tabletx1:h-[600px] tabletx1:flex-row flex-col-reverse">
+          <div className="text-white mx-12">
             <p className="text-[28px]">Neurosciences & Nutrition</p>
             <h1 className="text-[42px] leading-10 mt-4 font-corben">Découvre <br />les neuronutrisciences</h1>
             <p className="mt-6">Unique en France, Mon Meilleur Avatar vous fait<br /> bénéficier des atouts inédits de la complémentarité des<br /> neurosciences et de la nutrition.</p>
+          </div>
+          <div>
+            <img alt="" src="/cabeca-de-frutas.png" width={100} height={150} className="tablet:h-[500px] w-[400px] object-cover rounded-[32px]" />
           </div>
         </div>
       </section>
       {/* --------------------------------- */}
       {/* --------------------------------- */}
       <section className="flex justify-center">
-        <div className="max-w-[1000px] w-full my-14 lg:max-w-[900px] px-2 lg:px-0">
+        <div className="max-w-[1000px] w-full my-14 lg:max-w-[900px] px-4 lg:px-0">
           <h1 className="text-[32px] text-center font-corben">Neuronutrisciences: les atouts de la complémentarité</h1>
           <p className="mt-4 text-justify">Notre cerveau et notre alimentation sont intimement liés. Les neuronutrisciences explorent cette connexion en combinant neurosciences et nutrition pour optimiser vos performances cognitives, votre bien-être mental et votre santé globale.</p>
           <p className="mt-4 text-justify">{"Chaque nutriment joue un rôle clé : les oméga-3 soutiennent la mémoire, les antioxydants protègent les neurones, et les probiotiques influencent même nos émotions via l'axe intestin-cerveau."}</p>
           <p className="mt-4 text-justify">{"L'approche complémentaire agit sur plusieurs leviers en même temps : alimentation ciblée, micronutrition, gestion du stress et rythmes biologiques . Un équilibre essentiel pour un cerveau en pleine forme, aujourd'hui et pour longtemps."}</p>
-          <div className="flex justify-around mt-8">
+          <div className="flex justify-around flex-wrap gap-4 mt-8">
             <div className="flex flex-col items-center justify-center gap-1 max-w-max">
               <img src="/brain-in-head-left.png" alt="" height={80} width={80} />
               <p className="text-center font-bold leading-4 text-[#629a34]">Prévention des<br /> troubles mentaux</p>
@@ -49,7 +52,7 @@ export default function Neuronutrisciences() {
       {/* --------------------------------- */}
       {/* --------------------------------- */}
       <section className="flex justify-center mt-16 bg-[#4187F5] py-16">
-        <div className="flex max-w-[1000px] w-full h-[600px]">
+        <div className="flex items-center max-w-[1000px] w-full tabletx1:h-[600px] px-4 gap-4">
           <div className="w-full text-white">
             <h3 className="text-[28px] font-corben">
               Neurosciences : l’apport <br />
@@ -66,7 +69,7 @@ export default function Neuronutrisciences() {
               <BadgeLink href="https://calendly.com/julie-arduin">Je réserve ma séance</BadgeLink>
             </div>
           </div>
-          <div className="w-full">
+          <div className="w-full hidden lg:block">
             <img src="/neuroscience.png" alt="Neuroscience" height={80} width={80} className="h-[600px] w-full object-cover rounded-[32px]" />
           </div>
         </div>
@@ -74,8 +77,8 @@ export default function Neuronutrisciences() {
       {/* --------------------------------- */}
       {/* --------------------------------- */}
       <section className="flex justify-center my-14">
-        <div className="flex items-center gap-8 max-w-[1000px] w-full">
-          <div>
+        <div className="flex items-center gap-8 max-w-[1000px] w-full px-4 gap-4">
+          <div className="hidden lg:block">
             <img alt="" src="/d20040372373e3f4f43c153d21690643.avif" width={100} height={150} className="h-[500px] min-w-[450px] object-cover rounded-[32px]" />
           </div>
           <div className="w-full">
@@ -102,7 +105,7 @@ export default function Neuronutrisciences() {
         <div className="absolute flex flex-col items-center justify-center max-w-[1000px] w-full h-[500px]">
           <img alt="" src="/android-chrome-192x192.png" width={56} height={56} className="w-[150px]" />
           <p className="font-semibold text-[12px] text-[#2d358a] font-corben italic">Mon Meilleun @vatan</p>
-          <h3 className="text-[38px] font-corben text-white mt-6">“Vivez votre bien-être au quotidien”</h3>
+          <h3 className="text-[38px] font-corben text-white mt-6 text-center">“Vivez votre bien-être au quotidien”</h3>
         </div>
       </section>
       {/* --------------------------------- */}
