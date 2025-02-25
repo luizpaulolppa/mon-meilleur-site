@@ -6,7 +6,7 @@ import { tv } from "tailwind-variants";
 import { MobileHeader } from "./mobileHeader";
 
 const link = tv({
-  base: 'text-lg text-white font-semibold hover:underline',
+  base: 'text-lg text-black font-semibold hover:underline',
   variants: {
     type: {
       selected: 'font-semibold underline',
@@ -21,11 +21,11 @@ export async function Header() {
 
   return (
     <>
-      <nav className="hidden lg:flex justify-center items-center shadow-xl bg-[#4187F5]">
+      <nav className="hidden lg:flex justify-center items-center bg-white h-[100px] shadow-md">
         <ul className="flex items-center justify-between gap-4 max-w-[1000px] w-full">
           <li className="flex flex-col items-center my-2">
             <Link href="/" className="flex flex-col items-center">
-              <img alt="" src="/android-chrome-192x192.png" width={56} height={56} className="min-w-[60px]" />
+              <img alt="" src="/logo-01.svg" width={56} height={56} className="w-[130px]" />
               {/* <p className="font-semibold text-[12px] text-white">Mon Meilleun @vatan</p> */}
             </Link>
           </li>

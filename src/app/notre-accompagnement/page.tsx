@@ -95,7 +95,7 @@ export default function NotreAccompagnement() {
             <p className="mt-4">
               {"Un accompagnement digital pour un bien-être durable en entreprise!"}
 
-              {"En complément du Parcours Tremplin (2 demijournées de formation et 10 séances individuelles), la plateforme Mm@ vous guide au quotidien pour ancrer durablement de nouveaux rituels de vie, aussi bien personnels que professionnels, psychologiques qu'alimentaires. Pratique avant tout ! Vous y trouverez des exercices concrets, du contenu inspirant et motivant, adaptés à vos objectifs."}
+              {"En complément du Parcours Tremplin (2 demi-journées de formation et 10 séances individuelles), la plateforme Mm@ vous guide au quotidien pour ancrer durablement de nouveaux rituels de vie, aussi bien personnels que professionnels, psychologiques qu'alimentaires. Pratique avant tout ! Vous y trouverez des exercices concrets, du contenu inspirant et motivant, adaptés à vos objectifs."}
 
               {"\"La chasse au bonheur est ouverte tous les matins!\" (Stendhal)"}
             </p>
@@ -104,7 +104,7 @@ export default function NotreAccompagnement() {
             </div>
           </div>
           <div className="w-full mt-4 tabletx1:mt-0">
-            <img src="/mao_segurando_celular.png" alt="Neuroscience" height={80} width={80} className="h-[500px] w-[300px] w-full object-cover rounded-[32px]" />
+            <img src="/mao_segurando_celularx2.webp" alt="Neuroscience" height={80} width={80} className="h-[500px] w-[300px] w-full object-cover rounded-[32px]" />
           </div>
         </div>
       </section>

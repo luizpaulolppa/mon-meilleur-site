@@ -10,9 +10,9 @@ export default function NotreVision() {
       <section className="flex justify-center mt-16 py-16 px-4">
         <div className="flex items-center justify-between flex-col tabletx1:flex-row gap-4 max-w-[1000px] w-full">
           <div className="flex flex-col justify-center items-center w-full">
-            <img alt="" src="/android-chrome-192x192.png" width={56} height={56} className="w-[250px]" />
-            <h3 className="font-corben italic text-[32px] mt-4">Mon Meilleur @vatar</h3>
-            <p className="text-center text-[20px] font-normal leading-6">Adoptez les neuronutrisciences: <br />un nouvel art de vivre</p>
+            <img alt="" src="/logo-01@2x.png" width={56} height={56} className="w-[500px]" />
+            {/* <h3 className="font-corben italic text-[32px] mt-4">Mon Meilleur @vatar</h3> */}
+            <p className="text-center text-[20px] font-normal leading-6 mt-6">Adoptez les neuronutrisciences: <br />un nouvel art de vivre</p>
           </div>
           <div className="w-full">
             <h2 className="text-[42px] font-corben">Il était une fois...</h2>

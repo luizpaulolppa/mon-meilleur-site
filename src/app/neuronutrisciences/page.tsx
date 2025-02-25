@@ -83,12 +83,12 @@ export default function Neuronutrisciences() {
           </div>
           <div className="w-full">
             <h2 className="font-corben text-[34px] leading-10">
-              Nutrition allégée :
+              Nutrition saine:
               <br />
               le plaisir de la sérénité
             </h2>
             <p className="mt-6 text-justify text-[18px]">
-              {"Et si mieux manger rimait avec bien-être et clarté d'esprit ? La nutrition allégée ne consiste pas seulement à réduire les calories, mais à choisir des aliments qui nourrissent à la fois le corps et l'esprit. Grâce aux avancées en neuronutrisciences, nous comprenons mieux l'impact de l'alimentation sur l'équilibre émotionnel, la concentration et la gestion."}
+              {"Et si mieux manger rimait avec bien-être et clarté d'esprit ? La nutrition saine ne consiste pas seulement à réduire les calories, mais à choisir des aliments qui nourrissent à la fois le corps et l'esprit. Grâce aux avancées en neuronutrisciences, nous comprenons mieux l'impact de l'alimentation sur l'équilibre émotionnel, la concentration et la gestion."}
             </p>
             <p className="mt-6 text-justify text-[18px]">
               {"En adoptant une alimentation plus légère, vous offrez à votre cerveau les nutriments essentiels pour fonctionner de manière optimale. Moins de surcharge, plus d'énergie, une meilleure humeur… et surtout, la sérénité retrouvée."}
