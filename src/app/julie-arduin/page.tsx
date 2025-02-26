@@ -15,7 +15,7 @@ export default function JulieArduin() {
           <div className="w-full max-w-[450px] flex flex-col justify-center p-4">
             <div>
               <p className="">{"\"Le Bonheur n’est pas forcément une gare où l’on arrive, c’est avant tout une certaine façon de voyager\""}</p>
-              <p className="text-end mt-2 mb-4">Oscar Wide</p>
+              <p className="text-end mt-2 mb-4">Oscar Wilde</p>
               <h1 className="text-center font-corben text-[42px]">Julie Arduin</h1>
               <p className="text-center font-corben text-[28px]">Présidente</p>
 

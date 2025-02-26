@@ -72,7 +72,7 @@ export default function NotreVision() {
           <div className="flex justify-evenly flex-wrap gap-4 mt-8 w-full">
             <div className="w-[300px] bg-[#ff6e3b] rounded-[32px] p-8 text-white">
               <p className="font-bold text-[42px] italic">01</p>
-              <p className="font-bold text-[30px] leading-8 mt-4">Vous partage<br /> notre éthique</p>
+              <p className="font-bold text-[30px] leading-8 mt-4">Vous partagez<br /> notre éthique</p>
               <p className="text-[18px] mt-8 text-justify">Parce que votre bien-être passe par des pratiques fondées sur la science et le respect de votre équilibre, nous vous accompagnons avec intégrité et bienveillance.</p>
             </div>
 
