@@ -66,7 +66,7 @@ export default function Neuronutrisciences() {
               Je réserve ma séance
             </div> */}
             <div className="mt-8">
-              <BadgeLink href="https://calendly.com/julie-arduin">Je réserve ma séance</BadgeLink>
+              <BadgeLink href="https://bit.ly/4ioDInj">Je réserve ma séance</BadgeLink>
             </div>
           </div>
           <div className="w-full hidden lg:block">
@@ -94,7 +94,7 @@ export default function Neuronutrisciences() {
               {"En adoptant une alimentation plus légère, vous offrez à votre cerveau les nutriments essentiels pour fonctionner de manière optimale. Moins de surcharge, plus d'énergie, une meilleure humeur… et surtout, la sérénité retrouvée."}
             </p>
             <div className="mt-8">
-              <BadgeLink href="https://calendly.com/julie-arduin">Je réserve ma séance</BadgeLink>
+              <BadgeLink href="https://bit.ly/4ioDInj">Je réserve ma séance</BadgeLink>
             </div>
           </div>
         </div>

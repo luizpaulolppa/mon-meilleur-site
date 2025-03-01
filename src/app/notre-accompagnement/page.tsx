@@ -50,7 +50,7 @@ export default function NotreAccompagnement() {
               mieux-être holistique.
             </p>
             <div className="mt-8">
-              <BadgeLink href="https://calendly.com/julie-arduin">Je réserve</BadgeLink>
+              <BadgeLink href="https://bit.ly/41j7Edz">Je réserve</BadgeLink>
             </div>
           </div>
           <div className="w-full mt-8 tabletx1:mt-0">
@@ -76,7 +76,7 @@ export default function NotreAccompagnement() {
               {"Retrouvez un équilibre entre votre vie personnelle et professionnelle. Comment ? En relevant avec succès, les défis suivants : apaiser votre relation à l'alimentation et au mental, ajuster votre poids, réduire votre stress, prévenir le burn-out... en bref, vivez sereinement votre quotidien. Je vous accompagne avec une approche complète alliant sophrologie, coaching neuropsychologique et nutrition. Je me consacre avec passion à votre bienêtre, enrichie par mon expérience en tant que DRH et manager."}
             </p>
             <div className="mt-8">
-              <BadgeLink href="https://calendly.com/julie-arduin">Je réserve</BadgeLink>
+              <BadgeLink href="https://bit.ly/4ioDInj">Je réserve</BadgeLink>
             </div>
           </div>
         </div>
@@ -100,7 +100,7 @@ export default function NotreAccompagnement() {
               {"\"La chasse au bonheur est ouverte tous les matins!\" (Stendhal)"}
             </p>
             <div className="mt-8">
-              <BadgeLink href="https://calendly.com/julie-arduin">Je réserve</BadgeLink>
+              <BadgeLink href="https://bit.ly/4ioDInj">Je réserve</BadgeLink>
             </div>
           </div>
           <div className="w-full mt-4 tabletx1:mt-0">
@@ -125,7 +125,7 @@ export default function NotreAccompagnement() {
               {"\"Grâce à Mon Meilleur @vatar, je nourris mon bonheur et je redeviens Moi!\""}
             </p>
             <div className="mt-8">
-              <BadgeLink href="https://calendly.com/julie-arduin">Je réserve</BadgeLink>
+              <BadgeLink href="https://bit.ly/41j7Edz">Je réserve</BadgeLink>
             </div>
           </div>
           <div className="w-full mt-4 tabletx1:mt-0">

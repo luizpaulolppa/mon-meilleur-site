@@ -35,8 +35,8 @@ export default function Home() {
               <h2 className="text-[40px] text-[#4187F5] leading-[46px] mb-4 break-words font-corben">Adoptez les <br />Neuronutrisciences: <br />un nouvel art de vivre</h2>
               <p className="mt-2 text-[18px] leading-6">Changez d’Ere : libérez le plein potentiel de vos dirigeants et managers en adoptant nos Formations de Neuronutrisciences, l’association dynamique des Neurosciences et de la Nutrition.</p>
               <div className="flex flex-col gap-2 text-white font-bold mt-8 text-[18px] desktop:flex-row desktop:gap-1">
-                <BadgeLink href="https://calendly.com/julie-arduin">Je suis un particulier</BadgeLink>
-                <BadgeLink href="https://calendly.com/julie-arduin">Je suis un professionnel</BadgeLink>
+                <BadgeLink href="https://bit.ly/4ioDInj">Je suis un particulier</BadgeLink>
+                <BadgeLink href="https://bit.ly/41j7Edz">Je suis un professionnel</BadgeLink>
               </div>
             </div>
           </div>
@@ -54,7 +54,7 @@ export default function Home() {
             <p className="mt-6 text-justify text-[18px]">{"L'alimentation influence directement le fonctionnement du cerveau : énergie, mémoire, concentration, gestion du stress… Tout est lié ! Les neuronutrisciences explorent cette connexion entre nutrition et neurosciences pour optimiser les performances cognitives et le bien-être mental."}</p>
             <p className="mt-6 text-justify">{"Comprendre comment les neurosciences agissent sur le cerveau permet d'adopter une alimentation adaptée à ses besoins, soit pour améliorer son humeur, réduire la fatigue mentale ou favoriser une meilleure résilience face au stress."}</p>
             <div className="mt-8">
-              <BadgeLink href="https://calendly.com/julie-arduin">En savoir plus</BadgeLink>
+              <BadgeLink href="https://bit.ly/41j7Edz">En savoir plus</BadgeLink>
             </div>
           </div>
           <div>
@@ -82,7 +82,7 @@ export default function Home() {
             </h3>
             <p className="font-bold text-[22px] mb-4">“Je nourris votre bonheur...”</p>
             <p className="text-justify text-[18px]">
-              Passionée par le bien-être des équipes d’une
+              Passionnée par le bien-être des équipes d’une
               entreprise, je propose une série de Formations qui
               diminuent leur stress et assure leur mieux-vivre
               professionnel.
@@ -95,7 +95,7 @@ export default function Home() {
               rencontrer!
             </p>
             <div className="mt-8">
-              <BadgeLink href="https://calendly.com/julie-arduin">En savoir plus</BadgeLink>
+              <BadgeLink href="https://bit.ly/41j7Edz">En savoir plus</BadgeLink>
             </div>
           </div>
         </div>
@@ -113,7 +113,7 @@ export default function Home() {
                   <p className="font-bold text-[18px] text-center">Formation <br /> Neuronutrisciences</p>
                 </div>
                 <div className="mt-4">
-                  <BadgeLink href="https://calendly.com/julie-arduin" type="blue">En savoir plus</BadgeLink>
+                  <BadgeLink href="https://bit.ly/41j7Edz" type="blue">En savoir plus</BadgeLink>
                 </div>
               </div>
             </div>
@@ -128,7 +128,7 @@ export default function Home() {
                   En savoir plus
                 </div> */}
                 <div className="mt-4">
-                  <BadgeLink href="https://calendly.com/julie-arduin" type="blue">En savoir plus</BadgeLink>
+                  <BadgeLink href="https://bit.ly/4ioDInj" type="blue">En savoir plus</BadgeLink>
                 </div>
               </div>
             </div>
@@ -140,7 +140,7 @@ export default function Home() {
                   <p className="font-bold text-[18px] text-center">{"Présentation de l'offre"}<br /> en ligne</p>
                 </div>
                 <div className="mt-4">
-                  <BadgeLink href="https://calendly.com/julie-arduin" type="blue">En savoir plus</BadgeLink>
+                  <BadgeLink href="https://bit.ly/41j7Edz" type="blue">En savoir plus</BadgeLink>
                 </div>
               </div>
             </div>

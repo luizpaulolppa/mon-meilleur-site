@@ -17,7 +17,7 @@ export function Footer() {
           <p className="text-[22px] font-corben mb-2">Contact</p>
           <a href="tel:0614013655" className="font-light">06 14 01 36 55</a>
           <br />
-          <a className="underline font-light" href="julie.arduin@outlook.com">julie.arduin@outlook.com</a>
+          <a className="underline font-light" href="julie.arduin@monmeilleuravatar.com">julie.arduin@monmeilleuravatar.com</a>
           <br />
           <p className="underline font-light">CGV</p>
         </div>
