@@ -54,7 +54,7 @@ export default function Home() {
             <p className="mt-6 text-justify text-[18px]">{"L'alimentation influence directement le fonctionnement du cerveau : énergie, mémoire, concentration, gestion du stress… Tout est lié ! Les neuronutrisciences explorent cette connexion entre nutrition et neurosciences pour optimiser les performances cognitives et le bien-être mental."}</p>
             <p className="mt-6 text-justify">{"Comprendre comment les neurosciences agissent sur le cerveau permet d'adopter une alimentation adaptée à ses besoins, soit pour améliorer son humeur, réduire la fatigue mentale ou favoriser une meilleure résilience face au stress."}</p>
             <div className="mt-8">
-              <BadgeLink href="https://bit.ly/41j7Edz">En savoir plus</BadgeLink>
+              <BadgeLink href="/neuronutrisciences" target="_self">En savoir plus</BadgeLink>
             </div>
           </div>
           <div>
@@ -95,7 +95,7 @@ export default function Home() {
               rencontrer!
             </p>
             <div className="mt-8">
-              <BadgeLink href="https://bit.ly/41j7Edz">En savoir plus</BadgeLink>
+              <BadgeLink href="/julie-arduin" target="_self">En savoir plus</BadgeLink>
             </div>
           </div>
         </div>

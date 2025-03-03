@@ -103,8 +103,8 @@ export default function Neuronutrisciences() {
       <section className="flex justify-center relative">
         <img alt="" src="/fundo-ondulado.png" width={100} height={150} className="h-[500px] w-[100%] object-cover" />
         <div className="absolute flex flex-col items-center justify-center max-w-[1000px] w-full h-[500px]">
-          <img alt="" src="/android-chrome-192x192.png" width={56} height={56} className="w-[150px]" />
-          <p className="font-semibold text-[12px] text-[#2d358a] font-corben italic">Mon Meilleun @vatan</p>
+          <img alt="" src="/logo-01.svg" width={100} height={100} className="w-[300px]" />
+          {/* <p className="font-semibold text-[12px] text-[#2d358a] font-corben italic">Mon Meilleun @vatan</p> */}
           <h3 className="text-[38px] font-corben text-white mt-6 text-center">“Vivez votre bien-être au quotidien”</h3>
         </div>
       </section>
